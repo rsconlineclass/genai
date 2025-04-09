@@ -5,7 +5,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain_groq import ChatGroq
-
+#start writing the code
 # Load API keys from Streamlit secrets
 groq_api_key = st.secrets["GROQ_API_KEY"]
 openai_api_key = st.secrets["OPENAI_API_KEY"]
